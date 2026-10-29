@@ -1,0 +1,22 @@
+name: Karete Punch support
+description: Report a problem or ask for help with the iPhone game.
+title: "[Support] "
+body:
+  - type: markdown
+    attributes:
+      value: "This request will be public. Do not include passwords, personal contact information, or camera images."
+  - type: input
+    id: device
+    attributes:
+      label: iPhone model and iOS version
+  - type: input
+    id: version
+    attributes:
+      label: Karete Punch version
+  - type: textarea
+    id: question
+    attributes:
+      label: How can we help?
+      description: Describe the issue and how to reproduce it.
+    validations:
+      required: true
